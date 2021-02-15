@@ -4,11 +4,20 @@
 
 .service {
     display: flex;
-    padding: 55px 0;
+    padding: 50px 0;
 }
 
 .service:hover {
+    display: flex;
     background: #F5F5F5;
+}
+
+.service:hover .service__content {
+    padding-right: 144px;
+}
+
+.service:hover .service__desc {
+    padding-bottom: 30px;
 }
 
 .service .service__btn-hover {
@@ -25,22 +34,20 @@
 }
 
 .service__img {
-    max-width: 40%;
+    min-width: 40%;
+    padding-left: 30px;
     margin-right: 5%;
 }
 
-.service__content {
-    flex: 1;
-}
 
 .service__title {
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     color: #202020;
 }
 
 .service__desc {
     line-height: 1.7;
-    margin-bottom: 57px;
+    padding-bottom: 57px;
 }

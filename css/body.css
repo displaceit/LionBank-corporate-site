@@ -19,6 +19,10 @@
     text-decoration: none;
     font-style: normal;
   }
+
+  .menu__link-active {
+    color: #D3A557;
+  }
   
   ul li {
     list-style: none;
