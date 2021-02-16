@@ -8,6 +8,10 @@
     background: #F4F5F5;
 }
 
+.inner-section--feedback {
+    padding-top: 70px ;
+}
+
 .inner-section__title {
     font-size: 48px;
     font-weight: 700;

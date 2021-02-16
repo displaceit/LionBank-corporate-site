@@ -10,19 +10,7 @@
 .service:hover {
     display: flex;
     background: #F5F5F5;
-}
-
-.service .service__btn-hover {
-    display: none;
-}
-
-.service:hover .service__btn{
-    display: none;
-}
-
-.service:hover .service__btn-hover{
-    display: inline-block;
-    background: #DFB56D;
+    transition: 0.5s;
 }
 
 .service__img {
@@ -43,3 +31,23 @@
     line-height: 1.7;
     padding-bottom: 50px;
 }
+
+.service__btn {
+    min-width: 167px;
+  }
+  .service__btn::before {
+    content: "подробнее";
+  }
+  
+  .service:hover .service__btn {
+    background: #D3A557;
+    transition: .5s;
+  }
+  
+  .service:hover .service__btn::before {
+    content: "";
+  }
+  
+  .service:hover .service__btn::after {
+    content: "Отправить";
+  }

@@ -12,5 +12,5 @@
   }
   
   .header__col--align--right {
-    justify-content: flex-end;
+    display: flex;
   }

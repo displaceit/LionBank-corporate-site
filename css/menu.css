@@ -12,6 +12,7 @@
   }
   
   .menu__link:hover {
+    transition: .5s;
     color: #D3A557;
   }
 

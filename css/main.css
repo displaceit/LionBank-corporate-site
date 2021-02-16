@@ -28,12 +28,12 @@
 /*FEEDBACK*/
 
 .feedbacks__item {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .feedbacks {
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
     column-count: 2;
     column-gap: 28px;
 }
@@ -41,14 +41,14 @@
 .feedback {
     display: inline-flex;
     flex-direction: column;
-    padding: 50px 28px;
+    padding: 50px 28px 42px;
     background: #F4F5F5;
 }
 
 .feedback__header {
     display: flex;
     align-items: center;
-    margin-bottom: 28px;
+    padding-bottom: 28px;
 }
 
 .avatar {
@@ -56,7 +56,9 @@
     height: 142px;
     overflow: hidden;
     margin-right: 20px;
+
 }
+
 
 .feedback__user {
     display: flex;
@@ -64,12 +66,13 @@
     font-size: 24px;
     color: #1A1B1E;
     font-weight: 700;
-    margin-bottom: 13px;
+    padding: 8px 0;
 }
 
 .feedback__user:hover {
     color: #2E77A4;
     text-decoration: underline;
+    transition: 0.5s;
 
 }
 
@@ -87,7 +90,7 @@
 .tag {
     font-size: 13px;
     color: #333;
-    padding: 8px 25px;
+    padding: 9px 23px;
     border-radius: 50px;
     background: #E7E7E7;
     margin-right: 5px;
@@ -103,6 +106,10 @@
     font-weight: 700;
     color: #202020;
     margin-bottom: 13px;
+}
+
+.feedback__content {
+    padding-left: 5px;
 }
 
 .feedback__content-text {
@@ -133,12 +140,12 @@
 .separator__title {
     font-size: 48px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.3;
 }
 
 .form__row {
     display: flex;
-    margin-bottom: 30px;
+    padding-bottom: 21px;
 }
 
 .form__input {
@@ -152,6 +159,9 @@
     color: #1A1B1E;
 }
 
+.form__input:focus {
+    box-shadow: 0 0 0 1pt #E5C288;
+}
 
 .form__input::placeholder {
     color: #666;
@@ -167,13 +177,12 @@
 
 .form__controls {
     display: flex;
-    margin-bottom: 35px;
+    padding-bottom: 25px;
 }
 
 .form__controls-title {
     display: flex;
-    width: 42%;
-    padding-top: 15px;
+    width: 35%;
     font-size: 18px;
 }
 
@@ -185,8 +194,7 @@
 }
 
 .controls__item {
-    margin-bottom: 10px;
-    margin-right: 10x;
+    padding-bottom: 10px;
 }
 
 .controls__elem {
@@ -228,15 +236,17 @@
     background: url("../img/backgrounds/splash.png") center bottom / cover no-repeat;
 }
 
+
 .hello {
     display: flex;
     flex-direction: column;
     align-items: center;
     animation: bounce 1.5s;
+    animation-delay: 1s;
 }
 
 .hello__logo {
-    margin-bottom: 59px;
+    padding-bottom: 59px;
 }
 
 
@@ -267,4 +277,5 @@
         transform: translateY(0);
         opacity: 1;
     }
+
 }

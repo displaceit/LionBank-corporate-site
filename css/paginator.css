@@ -20,6 +20,7 @@
 .paginator__item {
   font-weight: 700;
   text-align: center;
+  border-radius: 50%;
 }
 
 .paginator__item:hover {
@@ -29,6 +30,7 @@
 .paginator__item:hover {
   background: #353439;
   border-radius: 50%;
+  transition: .5s;
 }
 
 .paginator__item--active {
