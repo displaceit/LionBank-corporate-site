@@ -1,16 +1,16 @@
 .social {
     display: flex;
     justify-content: space-between;
-    margin-right: 74px;
+    padding-right: 74px;
   }
   
   .social__item {
-    margin-right: 10px;
+    padding-right: 10px;
     display: flex;
   }
   
   .social__item:last-child {
-    margin-right: 0;
+    padding-right: 0;
   }
   
   .social__link {
