@@ -1,23 +1,15 @@
 .services {
-    margin-bottom: 50px;
+    padding-bottom: 48px;
 }
 
 .service {
     display: flex;
-    padding: 50px 0;
+    padding: 55px 0;
 }
 
 .service:hover {
     display: flex;
     background: #F5F5F5;
-}
-
-.service:hover .service__content {
-    padding-right: 144px;
-}
-
-.service:hover .service__desc {
-    padding-bottom: 30px;
 }
 
 .service .service__btn-hover {
@@ -34,11 +26,11 @@
 }
 
 .service__img {
-    min-width: 40%;
+    flex-shrink: 0;
     padding-left: 30px;
-    margin-right: 5%;
-}
+    padding-right: 55px;
 
+}
 
 .service__title {
     font-size: 36px;
@@ -49,5 +41,5 @@
 
 .service__desc {
     line-height: 1.7;
-    padding-bottom: 57px;
+    padding-bottom: 50px;
 }

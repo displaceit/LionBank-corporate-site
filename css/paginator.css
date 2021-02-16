@@ -39,7 +39,8 @@
 .paginator__display {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 25px;
+  padding-left: 25px;
+  padding-right: 20px;
 }
 
 .paginator__link {

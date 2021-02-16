@@ -1,11 +1,12 @@
 .partners {
+    min-height: 250px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .partners__item {
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .partners__item:nth-child(4n + 1) {

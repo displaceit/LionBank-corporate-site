@@ -1,9 +1,9 @@
 .top-line {
-    min-height: 415px;
-    background: #29282D url("../img/backgrounds/lion_head_wide.png") right 20% top no-repeat;
     display: flex;
+    min-height: 415px;
     flex-direction: column;
     padding-bottom: 23px;
+    background: url("../img/backgrounds/lion_head_wide.png") top center no-repeat;
 }
 
 .top-line__header {
