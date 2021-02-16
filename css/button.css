@@ -3,7 +3,7 @@
     background: #DFB56D;
     border-radius: 4px;
     color: #fff;
-    padding: 17px 38px;
+    padding: 18px 40px;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
@@ -15,20 +15,18 @@
   
   .btn--color--orange:hover {
     background: #D3A557;
+    transition: .5s;
   }
   
   .btn--color--dark-grey {
     background: #2B2B2B;
+    transition: .5s;
   }
   
   .btn--color--dark-grey:hover {
     background: #D3A557;
   }
   
-  .btn--hover--dark-grey:hover {
-    background: #2B2B2B;
-  }
-
   .btn--color--black {
     background: #29282D;
   }
@@ -39,6 +37,7 @@
 
   .btn--color--light-grey:hover {
     background: #2B2B2B;
+    transition: 0.5s;
   }
 
   .hello__btn {
@@ -46,4 +45,3 @@
     width: 165px;
     height: 52px;
 }
-

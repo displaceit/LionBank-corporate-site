@@ -30,4 +30,5 @@
 
 .breadcrumbs__link:hover {
     color: #D3A557;
+    transition: .5s;
 }
