@@ -1,0 +1,18 @@
+.separator {
+    background: #E5C288 url("../img/feedback/phone_hand.png") right 28% bottom no-repeat;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #202020;
+}
+
+.separator__content {
+    max-width: 40%;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
+}

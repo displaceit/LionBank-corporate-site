@@ -1,0 +1,80 @@
+.feedbacks__item {
+    margin-bottom: 10px;
+}
+
+.feedbacks {
+    margin-top: 60px;
+    margin-bottom: 55px;
+    column-count: 2;
+    column-gap: 28px;
+}
+
+.feedback {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 28px 42px;
+    background: #F4F5F5;
+}
+
+.feedback__header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 28px;
+}
+
+.avatar {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.feedback__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #1A1B1E;
+    font-weight: 700;
+    padding: 8px 0;
+}
+
+.feedback__user:hover {
+    color: #2E77A4;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.feedback__user::after {
+    content: url(../img/icons/vk_blue.png);
+    height: 30px;
+    margin-left: 10px;
+}
+
+.feedback__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.feedback__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #202020;
+    margin-bottom: 13px;
+}
+
+.feedback__content {
+    padding-left: 5px;
+}
+
+.feedback__content-text {
+    color: #818181;
+    margin-bottom: 47px;
+    line-height: 1.7;
+}
+
+.feedback__date {
+    color: #1A1B1E;
+    font-size: 14px;
+    font-weight: 600;
+}
+

@@ -1,53 +1,146 @@
 .social {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 74px;
-  }
-  
-  .social__item {
-    padding-right: 10px;
-    display: flex;
-  }
-  
-  .social__item:last-child {
-    padding-right: 0;
-  }
-  
-  .social__link {
-    width: 36px;
-    height: 36px;
-    background: center center no-repeat;
-  }
-  
-  .social__item--icon--teleg .social__link {
-    background-image: url(../img/icons/telegram_logo.png);
-  }
-  
-  .social__item--icon--teleg .social__link:hover {
-    background-image: url(../img/icons/telegram_logo_hover.png);
-  }
-  
-  .social__item--icon--vk .social__link {
-    background-image: url(../img/icons/vk_logo.png);
-  }
-  
-  .social__item--icon--vk .social__link:hover {
-    background-image: url(../img/icons/vk_logo_hover.png);
-  }
-  
-  .social__item--icon--fb .social__link {
-    background-image: url(../img/icons/fb_logo.png);
-  }
-  
-  .social__item--icon--fb .social__link:hover {
-    background-image: url(../img/icons/fb_logo_hover.png);
-  }
-  
-  .social__item--icon--insta .social__link {
-    background-image: url(../img/icons/insta_logo.png);
-  }
-  
-  .social__item--icon--insta .social__link:hover {
-    background-image: url(../img/icons/insta_logo_hover.png);
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  padding-right: 74px;
+}
+
+.social__item {
+  padding-right: 10px;
+  display: flex;
+}
+
+.social__item:last-child {
+  padding-right: 0;
+}
+
+/*SOCIALS ICONS*/
+.social__link {
+  width: 36px;
+  height: 36px;
+  background-color: #ccc;
+  background: center center no-repeat;
+  border-radius: 50%;
+  position: relative;
+}
+
+/*TELEGRAM*/
+.social__item--icon--teleg .social__link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url('../img/icons/sprites.png') -122px -66px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.social__item--icon--teleg .social__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url('../img/icons/sprites.png') -122px -10px;
+  transition: .5s;
+}
+
+/*VKONTAKTE*/
+.social__item--icon--vk .social__link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url('../img/icons/sprites.png') -66px -122px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.social__item--icon--vk .social__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url('../img/icons/sprites.png') -10px -122px;
+  transition: .5s;
+}
+
+/*FACEBOOK*/
+.social__item--icon--fb .social__link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url('../img/icons/sprites.png') -66px -10px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.social__item--icon--fb .social__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url('../img/icons/sprites.png') -10px -10px;
+  transition: .5s;
+}
+
+
+/*INSTAGRAM*/
+.social__item--icon--insta .social__link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url('../img/icons/sprites.png') -66px -66px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.social__item--icon--insta .social__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url('../img/icons/sprites.png') -10px -66px;
+  transition: .5s;
+}
+
+/*HOVER*/
+.social__link:hover:before {
+  opacity: 1;
+}
+
+.social__link:hover:after {
+  opacity: 0;
+}

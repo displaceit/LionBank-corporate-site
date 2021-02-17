@@ -1,0 +1,53 @@
+.welcome {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/backgrounds/splash.png") center bottom / cover no-repeat;
+}
+
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: bounce 1.5s;
+    animation-delay: 1s;
+}
+
+.hello__logo {
+    padding-bottom: 59px;
+}
+
+@keyframes bounce {
+    0% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+    20% {
+        animation-timing-function: cubic-bezier(.35, .75, .25, 1);
+        transform: translateY(-70px);
+        opacity: .3;
+    }
+
+    40% {
+        transform: translateY(0);
+        opacity: .7;
+    }
+
+    60% {
+        transform: translateY(-30px);
+        opacity: .9;
+    }
+
+    80% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
