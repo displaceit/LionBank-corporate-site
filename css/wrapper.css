@@ -7,6 +7,6 @@
   }
   
   .main__wrapper {
-    background: center top no-repeat url("/img/backgrounds/lion_header.png"), right 3px bottom 280px no-repeat url("/img/backgrounds/lion_bottom.png");
+    background: center top no-repeat url("../img/backgrounds/lion_header.png"), right 3px bottom 280px no-repeat url("../img/backgrounds/lion_bottom.png");
   }
   
