@@ -1,8 +1,7 @@
 .conatcts {
-  display: flex;
-  flex-direction: column;
   font-style: normal;
   text-align: right;
+  max-width: 200px;
 }
 
 .contacts__decr {

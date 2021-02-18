@@ -1,10 +1,14 @@
 .services {
-    padding-bottom: 48px;
+    padding-bottom: 42px;
+}
+
+.services__list {
+  padding-bottom: 42px;
 }
 
 .service {
     display: flex;
-    padding: 55px 0;
+    padding: 55px 30px;
 }
 
 .service:hover {
@@ -15,9 +19,7 @@
 
 .service__img {
     flex-shrink: 0;
-    padding-left: 30px;
     padding-right: 55px;
-
 }
 
 .service__title {

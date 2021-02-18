@@ -9,7 +9,8 @@
     border-radius: 5px;
     border: none;
     background: #fff;
-    padding: 20px 30px;
+    min-height: 60px;
+    padding: 0 30px;
     font-size: 18px;
     color: #1A1B1E;
 }
@@ -28,11 +29,13 @@
 
 .form__input--textarea {
     height: 235px;
+    resize: none;
+    padding-top: 10px
 }
 
 .form__controls {
     display: flex;
-    padding-bottom: 25px;
+    padding-bottom: 13px;
 }
 
 .form__controls-title {

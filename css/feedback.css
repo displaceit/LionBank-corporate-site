@@ -53,6 +53,7 @@
 .feedback__tags {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .feedback__title {
