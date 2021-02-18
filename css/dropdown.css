@@ -1,4 +1,5 @@
 .dropdown {
+    margin-top: -10px;
     position: relative;
 }
 
@@ -9,13 +10,13 @@
 .dropdown:hover .dropdown__menu {
     display: block;
     right: 0;
-    opacity: 1;
+    opacity: .8;
 }
 
 .dropdown:hover .dropdown__triangle {
     display: block;
     right: 40px;
-    opacity: 1;
+    opacity: .8;
 }
 
 .dropdown__triangle {
