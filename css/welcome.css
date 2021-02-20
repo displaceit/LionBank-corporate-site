@@ -8,7 +8,7 @@
     width: 100%;
     height: 100%;
     background: url("../img/backgrounds/flare.png") left 790px center no-repeat, url("../img/backgrounds/splash.png") center no-repeat;
-    background-size: auto 100%;
+    background-size: contain, cover;
 }
 
 
